@@ -147,15 +147,6 @@
     "message": "Tracking-Schutz deaktivieren (Strg + Umschalt + j für mehr Informationen)",
     "description": "(notify_uploadTrackingProtectionErrorMsg)"
   },
-  "notify_inlineMsg": {
-    "message": "$MSG$",
-    "placeholders": {
-      "msg": {
-        "content": "$1"
-      }
-    },
-    "description": "A generic placeholder for notification message, leave as-is (notify_inlineMsg)"
-  },
   "notify_inlineErrorMsg": {
     "message": "$ERROR$ (Strg + Umschalt + j für mehr Informationen)",
     "placeholders": {

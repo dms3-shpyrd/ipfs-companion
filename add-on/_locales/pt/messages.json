@@ -7,14 +7,6 @@
     "message": "Nó IPFS",
     "description": "Label for IPFS icon (panel_headerIpfsNodeIconLabel)"
   },
-  "panel_headerActiveToggleTitle": {
-    "message": "Global toggle: activate or suspend all IPFS integrations",
-    "description": "Label for an embedded IPFS node (panel_headerActiveToggleTitle)"
-  },
-  "panel_statusOffline": {
-    "message": "offline",
-    "description": "A label in Node status section of Browser Action pop-up (panel_statusOffline)"
-  },
   "panel_statusGatewayAddress": {
     "message": "Gateway",
     "description": "A label in Node status section of Browser Action pop-up (panel_statusGatewayAddress)"
@@ -83,14 +75,6 @@
     "message": "Recurso não IPFS",
     "description": "Default label for icon hidden in Page Action menu (pageAction_titleNonIpfs)"
   },
-  "contextMenu_AddToIpfsRawCid": {
-    "message": "Add to IPFS",
-    "description": "An item in right-click context menu (contextMenu_AddToIpfsRawCid)"
-  },
-  "contextMenu_AddToIpfsKeepFilename": {
-    "message": "Add to IPFS (Keep Filename)",
-    "description": "An item in right-click context menu (contextMenu_AddToIpfsKeepFilename)"
-  },
   "notify_addonIssueTitle": {
     "message": "Problema com a extensão IPFS",
     "description": "A title of system notification (notify_addonIssueTitle)"
@@ -147,15 +131,6 @@
     "message": "Tente desativar a Proteção de Rastreamento (prima ctrl+shift+j para mais detalhes)",
     "description": "(notify_uploadTrackingProtectionErrorMsg)"
   },
-  "notify_inlineMsg": {
-    "message": "$MSG$",
-    "placeholders": {
-      "msg": {
-        "content": "$1"
-      }
-    },
-    "description": "A generic placeholder for notification message, leave as-is (notify_inlineMsg)"
-  },
   "notify_inlineErrorMsg": {
     "message": "$ERROR$ (prima ctrl+shift+j para mais detalhes)",
     "placeholders": {
@@ -173,10 +148,6 @@
     "message": "Não conseguímos parar o nó IPFS",
     "description": "System notification title displayed when stopping an IPFS node fails (notify_stopIpfsNodeErrorTitle)"
   },
-  "option_legend_readMore": {
-    "message": "Read more",
-    "description": "A generic link in option description on the Preferences screen (option_legend_readMore)"
-  },
   "option_header_nodeType": {
     "message": "Nó IPFS",
     "description": "A section header on the Preferences screen (option_header_nodeType)"
@@ -184,14 +155,6 @@
   "option_ipfsNodeType_title": {
     "message": "Tipo do Nó IPFS",
     "description": "An option title on the Preferences screen (option_ipfsNodeType_title)"
-  },
-  "option_ipfsNodeType_external_description": {
-    "message": "External: connect to a node over HTTP API",
-    "description": "An option description on the Preferences screen (option_ipfsNodeType_description)"
-  },
-  "option_ipfsNodeType_embedded_description": {
-    "message": "Embedded (experimental): run js-ipfs node in your browser (use only for development, read about its limitations under the link below)",
-    "description": "An option description on the Preferences screen (option_ipfsNodeType_description)"
   },
   "option_ipfsNodeConfig_title": {
     "message": "Configuração do Nó IPFS",
@@ -297,34 +260,6 @@
     "message": "Transforma caminhos \/ipfs\/ em links clicáveis",
     "description": "An option description on the Preferences screen (option_linkify_description)"
   },
-  "option_dnslinkPolicy_title": {
-    "message": "DNSLink Support",
-    "description": "An option title on the Preferences screen (option_dnslinkPolicy_title)"
-  },
-  "option_dnslinkPolicy_description": {
-    "message": "Select DNS TXT lookup policy to load IPFS hosted sites over IPFS where possible",
-    "description": "An option description on the Preferences screen (option_dnslinkPolicy_description)"
-  },
-  "option_dnslinkPolicy_disabled": {
-    "message": "Off",
-    "description": "A select field option description on the Preferences screen (option_dnslinkPolicy_disabled)"
-  },
-  "option_dnslinkPolicy_bestEffort": {
-    "message": "Check after HTTP request",
-    "description": "A select field option description on the Preferences screen (option_dnslinkPolicy_bestEffort)"
-  },
-  "option_dnslinkPolicy_enabled": {
-    "message": "Check before HTTP request",
-    "description": "A select field option description on the Preferences screen (option_dnslinkPolicy_enabled)"
-  },
-  "option_detectIpfsPathHeader_title": {
-    "message": "Detect X-Ipfs-Path Header",
-    "description": "An option title on the Preferences screen (option_detectIpfsPathHeader_title)"
-  },
-  "option_detectIpfsPathHeader_description": {
-    "message": "Drop HTTP transport and load over IPFS if value is an IPFS path. Redirect of IPNS paths requires DNSLink support to be enabled as well.",
-    "description": "An option description on the Preferences screen (option_detectIpfsPathHeader_description)"
-  },
   "option_ipfsProxy_title": {
     "message": "window.ipfs",
     "description": "An option title for enabling\/disabling the IPFS proxy (option_ipfsProxy_title)"
@@ -385,26 +320,6 @@
   "quickUpload_drop_it_here": {
     "message": "larga aqui para partilhar",
     "description": "Partial info stats beneath the header on the share files page (quickUpload_drop_it_here)"
-  },
-  "quickUpload_state_uploading": {
-    "message": "Upload in progress..",
-    "description": "Status label on the share files page (quickUpload_state_uploading)"
-  },
-  "quickUpload_state_buffering": {
-    "message": "(buffering, please wait)",
-    "description": "Status label on the share files page (quickUpload_state_buffering)"
-  },
-  "quickUpload_options_show": {
-    "message": "upload options",
-    "description": "Button on the share files page (quickUpload_options_show)"
-  },
-  "quickUpload_options_wrapWithDirectory": {
-    "message": "Wrap single files in a directory to preserve their filenames.",
-    "description": "Checkbox label on the share files page (quickUpload_options_wrapWithDirectory)"
-  },
-  "quickUpload_options_pinUpload": {
-    "message": "Pin files so they are retained when performing garbage collection on your IPFS repo.",
-    "description": "Checkbox label on the share files page (quickUpload_options_pinUpload)"
   },
   "page_proxyAcl_title": {
     "message": "Gerir Permissões",
